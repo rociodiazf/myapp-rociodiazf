@@ -1,1 +1,9 @@
 language: java
+deploy:
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-rociodiazf
+  api_key:
+    secure: Lmf8K+dyUG+qiBVi42WobvcIr34rPJO1ELRgIDgs3SxvJwDKPVn1zQpcupZ2j4tctxcTZ5y0yvMp1E55kyBvaUCpYSusyLfeGhGiZ/maWd/4M80TshS9LiC77qxIQJvUd/zBPe4An/VEm5jBLtalw1FCEBsRZTKiJLYH2ayJE2zoe98l90/u5pQDqtfd64FAuzCbg81V6V8Xjlfi+jbVSx5SXTjJ3GrhdyTqI14jNA4GfVL3XeuPXB2HmUCzcsRW/9ZmWKrAEkE5BLLiaq2wlyhATbsWAZ2Dq+qm4COXe98+E6U+rQf40lTmmXjW99WGA9RTCdeutJB5ZGttSOsh5vem1shl70J3DD6peP19RlQ+4Hp+8L+bm8WWsskX5Cct30O9MLPwgWMi08p+KzTYBSXn85+UeYMOmRADYzPDqhCA/QhsEldyz/Chz/hKUx5nqo1RaPmVXv+Sf1HpaMEWlTPwFuP8fqBcGJNOREQCRgaLYxUT26/XgYgJ/CCgtWC9cIj5LcDcY4WfQ4DLXeo6p0Wa9UFrRiVOByi60huubYs1V36CMe4TiB1VvklzZhf5vG3g3Fc1lRrNppsd2RpiAHyn92BCWLppSyzjUZEimbLoNNm1YxL+O6aMq2qjfiNi0E4hb/p4ygwWcJA6P2ClMl4fIO7huwD9DjexjhyC6GE=

@@ -76,10 +76,10 @@
         <version>0.4.4</version>
         <configuration>
           <jdkVersion>1.8</jdkVersion>
-          <appName>spark-sqlite</appName>
+          <appName>>myapp-rociodiazf</appName>
           <processTypes>
             <!-- Tell Heroku how to launch your application -->
-            <web>java -jar ./target/my-app-1.0-jar-with-dependencies.jar</web>
+            <web>java -cp ./target/myapp-1.0-jar-with-dependencies.jar urjc.isi.myapp.Main</web>
           </processTypes>
         </configuration>
       </plugin>
